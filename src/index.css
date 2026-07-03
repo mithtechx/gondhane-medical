@@ -1,9 +1,11 @@
 @import "tailwindcss";
 
-@layer base {
-  body {
-    @apply bg-slate-50 text-slate-800 antialiased font-sans;
-  }
+body {
+  background-color: #f8fafc; /* bg-slate-50 */
+  color: #1e293b; /* text-slate-800 */
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* font-sans */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; /* antialiased */
 }
 
 /* ==========================================================================
